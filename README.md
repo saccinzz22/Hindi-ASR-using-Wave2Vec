@@ -21,7 +21,6 @@ Automatic Speech Recognition (ASR) enables machines to understand and transcribe
 - **Tokenization & Feature Extraction**: Uses a custom vocabulary and `Wav2Vec2Processor` to convert speech into model-ready input.  
 - **Model Fine-tuning**: Trains the pre-trained Wav2Vec2 model on Hindi speech data to improve speech-to-text accuracy.  
 - **Saving & Loading Model**: Saves trained model weights for reuse in inference or further training.  
-- **Inference**: Converts spoken Hindi audio into text using the fine-tuned model.  
 
 ## Usage  
 
